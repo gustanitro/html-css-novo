@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@font-face {
+  font-family: idroid;
+  src: url(fontes/idroid.otf);
+}
+
+body {
+  background-color: #84E1AD;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-image: linear-gradient(to top, #1A5C38, #3CD983);
+  padding: 40px 30px 10px 30px;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.699);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header > h1 {
+  color: white;
+  margin: auto;
+  padding: 0px 0px 5px 0px;
+  text-align: center;
+}
+
+header > p {
+  color: rgb(192, 192, 192);
+  width: 350px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+nav > a {
+  padding: 7px;
+  color: rgb(212, 211, 211);
+  text-decoration: none;
+}
+
+nav > a:hover {
+  background-color: #3CD983;
+  color: black;
+  border-radius: 5px;
+}
+
+main {
+  background-color: white;
+  margin: 0px 200px 18px 200px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.582);}
+
+h1#principal {
+  font-family: idroid;
+  font-size: 1.8em;
+  color: #1A5C38;
+  padding: 15px 15px 0px 15px;
+  margin: 0px;
+}
+
+h2.secunda {
+  font-family: idroid;
+  font-size: 1.3em;
+  color: #1A5C38;
+  background-image: linear-gradient(to right, #84e1acb2, white);
+  margin: 6px 10px;
+  padding: 0px 5px;
+}
+
+p.artigo {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  text-indent: 20px;
+  margin: 15px;
+}
+
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+iframe {
+  width: 750px;
+  height: 345px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1A5C38;
+  padding: 30px 100px;
+}
+
+section#extra {
+background-color: #C5EBD6;
+margin: 20px;
+padding: 0px 5px 5px 0px;
+border-radius: 10px;
+}
+
+ul {
+  width: 859px;
+  height: 290px;
+  text-align: justify;
+}
+
+h3 {
+  color: white;
+  background-color: #2FA866;
+  width: 899px;
+  padding: 5px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+aside {
+  text-indent: 20px;
+  padding-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: #1A5C38;
+  color: white;
+  padding: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: #197542;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
