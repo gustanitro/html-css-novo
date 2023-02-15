@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --fonte_principal: 'Sriracha', cursive;
+  --fonte_destaque: 'Passion One', cursive;
+}
+
+header {
+  background-color: black;
+  color: white;
+  margin-bottom: 60px;
+  padding: 30px;
+  font-family: var(--fonte_destaque);
+}
+
+header > h1 {
+  margin: auto;
+  padding: 15px;
+  padding-bottom: 0;
+  text-align: center;
+  font-size: 3em;
+}
+
+header > p {
+  margin: auto;
+  text-align: center;
+  font-size: .9em;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+main p {
+  margin-left: 17px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: left;
+  line-height: 2.3em;
+  font-family: var(--fonte_principal);
+}
+
+div#joaninha {
+  background: black url(pacote-d012/imagens/background001.jpg) center center no-repeat fixed ;
+  background-size: cover;
+  padding: 40px 0px;
+}
+
+div#joaninha > p {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.233);
+  max-width: 200px;
+  margin: 0px;
+  padding: 15px;
+}
+
+div#papel {
+  background: black url(pacote-d012/imagens/background002.jpg) center center no-repeat fixed;
+  background-size: cover;
+  padding: 40px 0px;
+}
+
+div#papel > p {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.233);
+  max-width: 200px;
+  margin: 0;
+  padding: 15px;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer > a {
+  color: white;
+  font-family: var(--fonte_destaque);
+  text-decoration: none;
+  font-weight: bold;
+}
